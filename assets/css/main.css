@@ -2269,6 +2269,30 @@ input, select, textarea {
 			background: #f7f7f7 url("images/bg02.png");
 		}
 
+/* pricing */
+
+#pricing {
+	position: relative;
+	background: rgb(154, 187, 117) url("images/bg02.png");  
+	padding: 4em 0 4em 0;
+}
+
+	#pricing:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: url("images/bg01.png");
+		background-size: 100% 100%;
+		z-index: 0;
+		opacity: 0.1;
+	}
+
+	#pricing .major h2 {
+		background: #f7f7f7 url("images/bg02.png");
+	}
+
 /* Footer */
 
 	#footer {
