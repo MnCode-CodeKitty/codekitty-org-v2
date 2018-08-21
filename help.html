@@ -24,7 +24,7 @@
 								<li><a href="http://codekitty.org/#pricing">Pricing</a></li>
 								<li><a href="http://codekitty.org/#main 	">Resources</a></li>
 								<li><a href="http://codekitty.org/#footer">Events</a></li>
-								<li class="current"><a href="http://codekitty.org/help.html">Help</a></li>
+								<li class="current"><a href="http://codekitty.org/help.html">Get Help</a></li>
 								<li><a href="https://goo.gl/forms/sMXOBcWToUqmacYu1">Contact Us</a></li>
 								<li><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 									<input type="hidden" name="cmd" value="_s-xclick">
@@ -37,7 +37,7 @@
 						</nav>
 
 					<!-- Intro -->
-						<section style="margin-top: 1.5em">
+						<section style="margin-top: 1.5em" id="help">
 								<header>
 										<h4>Need help? <strong>Click the triangles below to view answers to common questions.</strong></h4>
 								</header>
@@ -45,56 +45,58 @@
 							<div class="row">
 								<div class="col-4 col-12-medium">
 									<section class="first"> <!-- Hardware -->
-										<h3><u>Hardware Issues</u></h3>
+										<h3><u>Robot Issues</u></h3>
 										<details>
-											<summary><b>My robot won't turn on</b></summary>
-											<p>Ensure that the power connector is firmly connected.</p>
+											<summary>My Kitty's wheels are loose/wobbly</summary>
+											<p>The wheels can be rather tricky to get on just right. Make sure of the following to
+												ensure that your Kitty's wheels are solid:
+												<ol>
+													<li>Remove the hubcap and wheel, exposing the white "servo horn" that seats in the cutout in the wheel.</li>
+													<li>Using a small Phillips screwdriver, tighten the small screw in the center of the servo horn so that it is very snug.</li>
+													<li>Put the wheel back over the servo horn and turn it, pulling the wheel back so that the horn fits in the cutout in the wheel.</li>
+													<li>While pulling the wheel tight against the servo horn, push the hubcap into the wheel so that it seats down inside as far as possible.</li>
+													<li>While still pulling the wheel tight, turn the hubcap clockwise so that it is very tight using your fingers.</li>
+													<li>Repeat steps 1-5 for the other wheel so that both are firm and straight.</li>
+												</ol>
+												This process can seem hard at first, but you will find that tightening the wheels really helps your kitty drive more straight and more easily.
+											</p>
 										</details>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle"> <!-- Apps/Connectivity -->
-										<h3><u>Apps/Connectivity</u></h3>
-										<!-- <details>
-											<summary>My robot won't turn on</summary>
-											<p>Ensure that the power connector is firmly connected.</p>
-										</details> -->
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle"> <!-- Python Coding -->
-										<h3><u>Python Coding</u></h3>
-										<!-- <details>
-											<summary>My robot won't turn on</summary>
-											<p>Ensure that the power connector is firmly connected.</p>
-										</details> -->
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle"> <!-- CircuitPython -->
-										<h3><u>CircuitPython</u></h3>
-										<!--<details>
-											<summary>My robot won't turn on</summary>
-											<p>Ensure that the power connector is firmly connected.</p>
-										</details> -->
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle"> <!-- Donation -->
-										<h3><u>Donation/Fundraising</u></h3>
-										<!--<details>
-											<summary>My robot won't turn on</summary>
-											<p>Ensure that the power connector is firmly connected.</p>
-										</details> -->
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last"> <!-- Workshop -->
-										<h3><u>Workshops/Other</u></h3>
-										<!-- <details>
-											<summary>My robot won't turn on</summary>
-											<p>Ensure that the power connector is firmly connected.</p>
-										</details> -->
+										<details>
+											<summary>My Kitty's CircuitPython isn't working correctly</summary>
+											<p>If the software on your robot isn't working correctly, or you've modified it and 
+												would like to restore it to its original state, you can perform the following steps:
+												<ol>
+													<li>Download the <a href="https://github.com/MnCode-CodeKitty/codekitty/archive/master.zip" target="new">Code Kitty Master Zip</a> from our Github.</li>
+													<li>Connect your robot to your computer via USB and navigate to the CIRCUITPY drive.</li>
+													<li>Delete all of the files on the CIRCUITPY drive (making sure to back up custom code you want to keep!).</li>
+													<li>Copy the entire contents of the Master.zip you downloaded to the CIRCUITPY drive.</li>
+												</ol>
+												That's it! Now your software is refreshed to the latest version.
+											</p>
+										</details>
+										<details>
+											<summary>The infrared sensor isn't working correctly</summary>
+											<p>If the infrared object avoidance sensor on your robot isn't working correctly, follow these steps to resolve
+												the issue:
+												<ol>
+													<li>Flip your robot upside-down while your kitty is plugged in to USB and look at the sensor. Are there two lights on it?
+														If your sensor is getting power (the far wire is power), there will be a red light constantly lit on the sensor. If not,
+														disconnect and reconnect both ends of the left and middle wires, making sure they are firmly connected.
+													</li>
+													<li>If you wave your hand in front of the two LED bulbs on the sensor, another light should flash on the sensor board.
+														If it does not, disconnect and reconnect both ends of the rightmost wire (VCC) on the sensor board and then try again.
+													</li>
+													<li>If the lights aren't behaving as described above, try swapping the leftmost and rightmost wires connected to the sensor.</li>
+													<li>If there's just a solid red light that doesn't change, try adjusting the small gray screw (in the blue housing) on the sensor 
+														board. Very small movements can make a big difference!
+													</li>
+													<li>If none of this resolves the issue, and turning the screw doesn't change the light at all, you could have a bad sensor board.
+														You can order a ten pack on Amazon for $10 <a href="https://smile.amazon.com/gp/product/B01I57HIJ0/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1" target="new">here</a>.
+													</li>
+												</ol>
+												Hopefully these steps and a bit of trial and error will help you figure out the sensor. If you need more assistance, contact us.
+											</p>
+										</details>
 									</section>
 								</div>
 							</div>

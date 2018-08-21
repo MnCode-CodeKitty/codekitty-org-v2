@@ -2245,6 +2245,29 @@ input, select, textarea {
 			margin: 0;
 		}
 
+
+/* Help */
+
+		#help details, #help p {
+			background-color: #EEEEFF;
+			padding: 8px;
+			margin: 8px;
+			border-radius: 5px;
+			text-align: left;
+		}
+
+		#help ol {
+			background-color: rgb(250, 250, 250);
+			text-align: left;
+			font-weight: 500;
+		}
+
+		#help summary {
+			font-weight: bold;
+			text-align: left;
+		}
+
+
 /* Main */
 
 	#main {
