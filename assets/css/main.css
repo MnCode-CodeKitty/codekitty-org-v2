@@ -2267,6 +2267,13 @@ input, select, textarea {
 			text-align: left;
 		}
 
+/* About */
+#about {
+	background-color: #F5F5F5; 
+	margin: 20px; 
+	padding: 26px; 
+	border-radius: 15px;
+}
 
 /* Main */
 
