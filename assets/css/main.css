@@ -2274,7 +2274,7 @@ input, select, textarea {
 	margin-left: 10%; 
 	padding: 26px; 
 	border-radius: 15px;
-	align-content: left;
+	text-align: left;
 }
 
 .about-photo {
@@ -2286,7 +2286,7 @@ input, select, textarea {
 }
 
 .about-photo img {
-	height: 150px;
+	border: none;
 }
 
 /* Main */
