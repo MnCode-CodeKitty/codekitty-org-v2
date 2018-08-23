@@ -2271,21 +2271,22 @@ input, select, textarea {
 #about {
 	background-color: #F5F5F5; 
 	margin: 20px;
+	margin-top: 20px;
 	margin-left: 10%; 
 	padding: 26px; 
 	border-radius: 15px;
 	text-align: left;
 }
 
-.about-photo {
-	float: left; 
-	width: 20%; 
+#about-photo { 
+	float: left;
+	width: 20%;
 	text-align: center;
 	margin: 20px;
 	padding: 8px;
 }
 
-.about-photo img {
+#about-photo img {
 	border: none;
 }
 
