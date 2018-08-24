@@ -2268,15 +2268,29 @@ input, select, textarea {
 		}
 
 /* About */
+
 #about {
-	background-color: #F5F5F5; 
-	margin: 20px;
-	margin-top: 20px;
-	margin-left: 10%; 
-	padding: 26px; 
-	border-radius: 15px;
-	text-align: left;
+	position: relative;
+	background: #F5F5F5; 
+	padding: 4em 0 4em 0;
 }
+
+#about:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url("images/bg01.png");
+	background-size: 100% 100%;
+	z-index: 0;
+	opacity: 0.1;
+}
+
+#about header {
+	text-align: center; 
+}
+
 
 .photo-flex {
 	padding: 0;
@@ -2291,7 +2305,29 @@ input, select, textarea {
 	padding: 5px;
 	width: 150px;
 	height: 200px;
-	margin: 24px;
+	margin: 2px;
+}
+
+.about-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-main {
+	flex: 70%;
+	padding: 20px;
+	padding-left: 0px;
+}
+
+.about-side {
+	flex: 30%;
+	padding: 20px;
+}
+
+.side-photo{
+	padding: 5px;
+	width: 150px;
+	margin: 2px;
 }
 
 
