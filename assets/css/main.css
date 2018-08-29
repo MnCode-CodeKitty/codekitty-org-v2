@@ -2331,6 +2331,32 @@ input, select, textarea {
 	margin: 2px;
 }
 
+/* News */
+
+#news {
+	position: relative;
+	background: #757575;
+	margin: 0; 
+	padding: 1px 0 1em 0;
+	width: 100%;
+}
+
+#news:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url("images/bg01.png");
+	background-size: 100% 100%;
+	z-index: 0;
+	opacity: 0.1;
+}
+
+#news header {
+	text-align: center; 
+}
+
 
 /* Main */
 
