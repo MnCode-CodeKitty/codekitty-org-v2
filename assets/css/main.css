@@ -2361,16 +2361,16 @@ input, select, textarea {
 	text-align: center; 
 }
 
-#news.h3, #news.h4 {
+#news h3, #news h4 {
 	color: #FFFFFF;
 }
 
-#news.a {
+#news a {
 	color: #ffc439;
 	text-decoration: none;
 }
 
-#news.a:hover {
+#news a:hover {
 	text-decoration: underline;
 }
 
