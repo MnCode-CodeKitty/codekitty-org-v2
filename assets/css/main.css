@@ -2058,6 +2058,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: #252122;
+			width: 100%;
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
@@ -2157,13 +2158,13 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		/* background: #CCE8F4 url("../../images/pic01.jpg");
 		background-position: center center;
 		background-size: auto 100%;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat; */
 		text-align: center;
 		position: relative;
-		padding: 8em 0;
+		padding: 0 0; /* orig: 8em */
 		margin: 4em 0 0 0;
 	}
 
@@ -2172,6 +2173,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
+			width: 100%;
 		}
 
 			#banner header h2 {
@@ -2194,6 +2196,7 @@ input, select, textarea {
 	#intro {
 		text-align: center;
 		overflow: hidden;
+		border: none;
 	}
 
 		#intro section {
@@ -2274,6 +2277,7 @@ input, select, textarea {
 	position: relative;
 	background: #F5F5F5; 
 	padding: 4em 0 4em 0;
+	border: none;
 }
 
 #about:before {
@@ -2340,6 +2344,7 @@ input, select, textarea {
 	padding: 1em 0 3em 0;
 	width: 100%;
 	color: #FFFFFF;
+	border: none;
 }
 
 #news:before {
@@ -2407,8 +2412,10 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #7080A7 url("images/bg02.png");  /* f7f7f7 */
+		background-color: #FFF; 
 		padding: 4em 0 4em 0;
+		border-width: 0px;
+		border-style: none;
 	}
 
 		#main:before {
@@ -2427,12 +2434,21 @@ input, select, textarea {
 			background: #f7f7f7 url("images/bg02.png");
 		}
 
+		#main .box {
+			border-width: 10px; 
+			border-style: solid; 
+			border-radius: 8px; 
+			border-color: #7080A7;
+		}
+
 /* pricing */
 
 #pricing {
 	position: relative;
-	background: rgb(154, 187, 117) url("images/bg02.png");  
+	background: rgba(34, 30, 31, 0.98);  
 	padding: 4em 0 4em 0;
+	border-width: 0px;
+	border-style: none;
 }
 
 	#pricing:before {
@@ -2451,11 +2467,18 @@ input, select, textarea {
 		background: #f7f7f7 url("images/bg02.png");
 	}
 
+	#pricing .box {
+		border-width: 10px; 
+		border-style: solid; 
+		border-radius: 8px; 
+		border-color: rgb(154, 187, 117);
+	}
+
 /* Footer */
 
 	#footer {
 		position: relative;
-		color: #858484;
+		background-color: rgba(34, 30, 31, 0.98);
 		padding: 4em 0;
 	}
 
