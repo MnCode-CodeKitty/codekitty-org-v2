@@ -17,6 +17,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="homepage is-preload">
+			<div id="fb-root"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -29,12 +31,11 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="http://codekitty.org">Home</a></li>
-								<li><a href="http://codekitty.org/#intro">Intro</a></li>
 								<li><a href="http://codekitty.org/#pricing">Pricing</a></li>
 								<li><a href="http://codekitty.org/#main 	">Resources</a></li>
-								<li><a href="http://codekitty.org/#footer">Events</a></li>
 								<li><a href="http://codekitty.org/about.html">About Us</a></li>
 								<li><a href="http://codekitty.org/help.html">Get Help</a></li>
+								<li><a href="http://codekitty.org/python">Code</a></li>
 								<li><a href="https://goo.gl/forms/sMXOBcWToUqmacYu1">Contact Us</a></li>
 								<li><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 									<input type="hidden" name="cmd" value="_s-xclick">
@@ -98,66 +99,9 @@
 								</ul>
 							</footer>
 						</section>
-
-				</section>
-				<!-- News -->
-				<section id="news">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<div class="row">
-									<div class="col-12	">
-										<section>
-											<header>
-												<h3>News</h3>
-											</header>
-											<div class="news-article">
-												<div class="news-left">
-													<img src="" class="news-image"><br />
-													<i></i>
-												</div>
-												<div class="news-right">
-													<p>
-														<h4>[05/13/2019] Kitties at SEA!</h4>
-														After weeks and weeks (and weeks) of robot Engineering
-														and production, we did it! Our largest robotics workshop 
-														ever - 90 robots for the Robbinsdale School of Engineering
-														and Art! We are so grateful for the chance to bring our
-														robots to SEA, and we loved watching the students there 
-														really get into coding in Python! Special thanks to the 
-														7 Dreams Foundation for providing the grant to SEA so they 
-														could bring our workshop in.<br />
-														Want your own coding and robotics workshop? 
-														<a href="https://goo.gl/forms/sMXOBcWToUqmacYu1">Contact Us!</a>
-													</p>
-												</div>
-											</div>
-											<div class="news-article">
-												<div class="news-left">
-													<img src="images/works-kitty.png" class="news-image"><br />
-													<i>A kitty at the Works Museum</i>
-												</div>
-												<div class="news-right">
-													<p>
-														<h4>[11/14/2018] 4 events in 5 days!</h4>															*whew* We did it. A two-day workshop for girl scouts,
-														a day of mini-workshops at the <a href="theworks.org">
-														Works Museum</a>, and another girl scouts workshop! So
-														many great experiences, so many girls totally getting
-														in to Python coding and robotics. So much awesome.<br />
-														Want your own coding and robotics workshop? 
-														<a href="https://goo.gl/forms/sMXOBcWToUqmacYu1">Contact Us!</a>
-													</p>
-												</div>
-											</div>
-										</section>
-									</div>	
-								</div>
-							</div>
-						</div>
-					</div>
 				</section>
 
-					<!-- Pricing -->
+				<!-- Pricing -->
 				<section id="pricing">
 					<div class="container">
 						<div class="row">
@@ -214,11 +158,7 @@
 														</form>
 											</footer>
 										</section>
-								</div>
-								<div>
-												<b><i>Kitty Production Status:</i> So many kitties! Over 200 deployed so far! &emsp;
-												<i>Estimated Availability: &nbsp;</i>5/20/19</b> 
-												</div>
+
 							</div>
 						</div>
 					</div>
@@ -372,12 +312,22 @@
 										Code Kitty is a Twin Cities, MN (USA) based 501(c)(3) non-profit started by a collection of engineers, educators
 										and idealists who shared a common vision for a new way to do STEM education.  
 									</p>
-									<footer>
-										<ul class="actions">
-											<li><a href="https://goo.gl/forms/sMXOBcWToUqmacYu1" class="button">Contact Us</a></li>
-										</ul>
-									</footer>
+
 								</section>
+										<section>
+											<header>
+												<h2>Connect with Code Kitty</h2>
+											</header>
+											<ul class="social">
+												<li><a class="icon fa-facebook" href="https://www.facebook.com/MNcodekitty/"><span class="label">Facebook</span></a></li>
+												<li><a class="icon fa-twitter" href="https://twitter.com/mncode_kitty"><span class="label">Twitter</span></a></li>
+											</ul>
+											<footer>
+													<ul class="actions">
+														<li><a href="https://goo.gl/forms/sMXOBcWToUqmacYu1" class="button">Contact Form</a></li>
+													</ul>
+												</footer>
+										</section>
 								<section>
 									<header>
 										<h2>Workshop Shared Docs</h2>
@@ -397,7 +347,7 @@
 							<div class="col-4 col-6-medium col-12-small">
 								<section>
 									<header>
-										<h2>Code Kitty Resources</h2>
+										<h2>More Resources</h2>
 									</header>
 									<ul class="divided">
 										<li><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -410,41 +360,17 @@
 										<li><a href="https://www.thingiverse.com/CodeKitty">Our designs on Thingiverse</a></li>
 										<li><a href="http://codekitty.org/step2">Start the Code Kitty Story</a></li>
 										<li><a href="https://www.facebook.com/MNcodekitty/">Our Facebook Page</a></li>
-										<li><a href="https://twitter.com/mncode_kitty">Our Twitter Feed</a></li>	
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-								<section>
-									<header>
-										<h2>Education/Tech Resources</h2>
-									</header>
-									<ul class="divided">
+										<li><a href="https://twitter.com/mncode_kitty">Our Twitter Feed</a></li>
 										<li><a href="https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/circuit-playground-express-library">Adafruit's CPX page</a></li>
 										<li>Get <a href="https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg" target="new">Text</a>/Get <a href="https://chrome.google.com/webstore/detail/beagle-term/gkdofhllgfohlddimiiildbgoggdpoea" target="new">Beagleterm</a></li>
 										<li><a href="https://code.org">Code.org</a></li>
 										<li><a href="https://sites.google.com/woyak.com/code/home">The Art of Code python Tutorial</a></li>
-										<li><a href="https://www.python.org/">The Python Home Page</a></li>
+										<li><a href="https://www.python.org/">The Python Home Page</a></li>	
 									</ul>
 								</section>
 							</div>
-							<div class="col-4 col-12-medium">
-								<section>
-									<header>
-										<h2>Connect with Code Kitty</h2>
-									</header>
-									<ul class="social">
-										<li><a class="icon fa-facebook" href="https://www.facebook.com/MNcodekitty/"><span class="label">Facebook</span></a></li>
-										<li><a class="icon fa-twitter" href="https://twitter.com/mncode_kitty"><span class="label">Twitter</span></a></li>
-									</ul>
-									<ul class="contact">
-										<li>
-											<h3>Contact Us</h3>
-											<p><a href="https://goo.gl/forms/sMXOBcWToUqmacYu1">Our Contact Form</a></p>
-										</li>
-									</ul>
-								</section>
-							</div>
+
+
 							<div class="col-12">
 
 								<!-- Copyright -->
