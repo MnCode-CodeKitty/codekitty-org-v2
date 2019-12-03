@@ -419,6 +419,8 @@ input, select, textarea {
 			.row.gtr-uniform {
 				margin-top: -50px;
 			}
+		}
+
 
 				.row.gtr-uniform > * {
 					padding-top: 50px;
@@ -884,6 +886,8 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
+					}
+			
 						padding: 15px 0 0 15px;
 					}
 
@@ -1914,6 +1918,8 @@ input, select, textarea {
 				width: 3em;
 				height: 3em;
 				text-align: center;
+			}
+	
 				border-radius: 5px;
 				background: #888;
 				-moz-transition: background-color .25s ease-in-out;
@@ -2468,6 +2474,37 @@ input, select, textarea {
 	}
 
 	#pricing .box {
+		border-width: 10px; 
+		border-style: solid; 
+		border-radius: 8px; 
+		border-color: rgb(154, 187, 117);
+	}
+
+#more {
+	position: relative;
+	background: rgba(128, 184, 136, 0.98);  
+	padding: 4em 0 4em 0;
+	border-width: 0px;
+	border-style: none;
+}
+	
+	#more:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: url("images/bg01.png");
+		background-size: 100% 100%;
+		z-index: 0;
+		opacity: 0.1;
+	}
+	
+	#more .major h2 {
+		background: #f7f7f7 url("images/bg02.png");
+	}
+	
+	#more .box {
 		border-width: 10px; 
 		border-style: solid; 
 		border-radius: 8px; 
@@ -3074,6 +3111,11 @@ input, select, textarea {
 		/* Main */
 
 			#main {
+				padding: 20px 0;
+			}
+
+		/* More */
+			#more {
 				padding: 20px 0;
 			}
 
