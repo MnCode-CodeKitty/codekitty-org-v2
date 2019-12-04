@@ -2451,7 +2451,7 @@ input, select, textarea {
 
 #pricing {
 	position: relative;
-	background: rgba(34, 30, 31, 0.98);  
+	background: rgba(255, 255, 255, 0.98);  
 	padding: 4em 0 4em 0;
 	border-width: 0px;
 	border-style: none;
@@ -2482,7 +2482,7 @@ input, select, textarea {
 
 #more {
 	position: relative;
-	background: rgba(128, 184, 136, 0.98);  
+	background: rgba(255, 255, 255, 0.98);  
 	padding: 4em 0 4em 0;
 	border-width: 0px;
 	border-style: none;
@@ -2508,9 +2508,41 @@ input, select, textarea {
 		border-width: 10px; 
 		border-style: solid; 
 		border-radius: 8px; 
-		border-color: rgb(154, 187, 117);
+		border-color: rgb(213, 35, 73);
 	}
 
+#youtube {
+		position: relative;
+		background: rgba(255, 255, 255, 0.98);  
+		padding: 4em 0 4em 0;
+		border-width: 0px;
+		border-style: none;
+	}
+		
+	#youtube:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: url("images/bg01.png");
+		background-size: 100% 100%;
+		z-index: 0;
+		opacity: 0.1;
+	}
+		
+	#youtube .major h2 {
+		background: #f7f7f7 url("images/bg02.png");
+	}
+		
+	#youtube .box {
+		border-width: 10px; 
+		border-style: solid; 
+		border-radius: 8px; 
+		border-color: rgb(255, 251, 0);
+	}
+	
+	
 /* Footer */
 
 	#footer {
