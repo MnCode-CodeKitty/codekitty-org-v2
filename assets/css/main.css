@@ -2438,18 +2438,32 @@ input, select, textarea {
 			background: #FFF url("images/bg02.png");
 		}
 
-		#main .box {
-			border-width: 10px; 
+		#main .outbox {
+			border-width: 0px; 
 			border-style: solid; 
 			border-radius: 8px; 
-			border-color: #7080A7;
+			background-color: #7080A7;
+			padding: 1em;
+			padding-top: 2em;
 		}
+
+		#main .inbox {
+			border-width: 0px; 
+			border-style: solid; 
+			border-radius: 8px; 
+			background-color: #FFF;
+			padding: 1.5em 1em 0.1em 1em;
+			margin: 1em;
+			margin-top: 0;
+
+		}
+
 
 /* pricing */
 
 #pricing {
 	position: relative;
-	background: rgba(255, 255, 255);  
+	background-color: rgba(255, 255, 255);  
 	padding: 0 0 4em 0;
 	border-width: 0px;
 	border-style: none;
@@ -2471,11 +2485,24 @@ input, select, textarea {
 		background: #ffffff url("images/bg02.png");
 	}
 
-	#pricing .box {
-		border-width: 10px; 
+	#pricing .outbox {
+		border-width: 0px; 
 		border-style: solid; 
 		border-radius: 8px; 
 		border-color: rgb(154, 187, 117);
+		padding: 1em;
+		padding-top: 2em;
+	}
+
+	#pricing .inbox {
+		border-width: 0px; 
+		border-style: solid; 
+		border-radius: 8px; 
+		background-color: #FFF;
+		padding: 1.5em 1em 0.1em 1em;
+		margin: 1em;
+		margin-top: 0;
+
 	}
 
 #more {
